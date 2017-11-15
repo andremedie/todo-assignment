@@ -1,9 +1,11 @@
 body {
     width: 100%;
     margin: 0px;
+    
 }
 
 header {
+    height: 100px;
     min-height: 50px;
     width: 100%;
     padding: 40px;
@@ -12,9 +14,9 @@ header {
 
 .nav1 {
     float: left;
-    position: fixed;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Arial Black", Gadget, sans-serif;
     color: white;
+    font-size: 36px;
 }
 
 #nav2 {
@@ -23,10 +25,25 @@ header {
 }
 
 #main {
-    min-height: 30px;
-    font-family: "Times New Roman", Times, serif;
+    min-height: 30%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    width: 20em;
+
+    color: black;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+   
 }
 
 footer {
-
+    font-family: "Times New Roman", Times, serif;
+    background-color: wheat;
+    color: black;
+    position: fixed;
+    bottom: 0; right: 0; left: 0;
+    width: 100%;
 }
