@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    min-height: 50px;
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(4, 46, 80);
+}
+
+.nav1 {
+    float: left;
+    position: fixed;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+}
+
+#nav2 {
+    float: right;
+
+}
+
+#main {
+    min-height: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+
+}
